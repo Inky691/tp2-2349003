@@ -1,5 +1,5 @@
 
-# Travail Pratique 2
+# Visual Studio Code
 
 Ce dépot contient le code d'un projet web fait dans le cours de Perspective Professionnelles.
 
