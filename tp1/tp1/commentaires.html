@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Auteur: Alexandre Brunet -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commentaires</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="page">
+    <header id="haut">
+        <img src="images/mh_logo.jpg" alt="Monster Hunter logo" title="Logo Monster Hunter World">
+        <h1>Monster Hunter</h1>
+    </header>
+
+    <nav>
+
+        <a href="index.html">Accueil</a>
+        <a href="galerie-images.html">Galerie Photo</a>
+        <a href="commentaires.html">Commentaires</a>
+        <a class=connection href="connexion.html">Se connecter</a>
+    </nav>
+
+    <main class="com">
+        <form action="mailto:2349003@csfoy.ca" method="post" enctype="text/plain">
+            <fieldset class="box">
+                <legend>Coordonnées</legend>
+
+                <div>
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" name="prenom" id="prenom" required>
+                </div>
+
+                <div>
+                    <label for="Nom">Nom:</label>
+                    <input type="text" name="Nom" id="Nom" required>
+                </div>
+
+                <div>
+                    <label for="Email">Email:</label>
+                    <input type="email" name="Email" id="Email" required>
+                </div>
+
+                <div>
+                    <label for="Phone">Numéro de téléphone:</label>
+                    <input type="number" name="Phone" id="Phone" placeholder="###-###-####">
+                </div>
+
+                <div>
+                    <label for="lstProvince">Province</label>
+                    <select name="lstProvince" id="lstProvince">
+                        <option value="AB">Alberta</option>
+                        <option value="CB">Colombie-Britanique</option>
+                        <option value="PE">Île-du-Prince-Édourard</option>
+                        <option value="MA">Manitoba</option>
+                        <option value="NB">Nouveau-Brunswick</option>
+                        <option value="NE">Nouvelle-Écosse</option>
+                        <option value="NU">Nunavut</option>
+                        <option value="ON">Ontario</option>
+                        <option value="QC" selected>Québec</option>
+                        <option value="SA">Saskatchewan</option>
+                        <option value="TN">Terre-Neuve-et-Labrador</option>
+                        <option value="NO">Territoires du Nord-Ouest</option>
+                        <option value="YU">Yukon</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="bday">Date de naissance</label>
+                    <input type="date" name="bday" id="bday">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Arme utilisé</legend>
+                <div>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="sword-shield" id="sword-shield">
+                            <label for="sword-shield">Épée et bouclier</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="greatsword" id="greatsword">
+                            <label for="greatsword">Grande épée</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="katana" id="katana">
+                            <label for="katana">Épée Longue</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="hammer" id="hammer">
+                            <label for="hammer">Marteau</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="arbalete" id="arbalete">
+                            <label for="arbalete">Fusarbalète léger</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="bow" id="bow">
+                            <label for="bow">Arc</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="lance" id="lance">
+                            <label for="lance">Lance</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="double-blade" id="double-blade">
+                            <label for="double-blade">Lames doubles</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="axe" id="axe">
+                            <label for="axe">Volto-hache</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="canon" id="canon">
+                            <label for="canon">Lancecanon</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="heavy-bow" id="heavy-bow">
+                            <label for="heavy-bow">Fusarbalète lourd</label>
+                        </li>
+                    </ul>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Commentaires</legend>
+                <div class="comment">
+                    <textarea name="com" id="com" cols="30" rows="7"></textarea>
+                    <label for="com">Quel est votre opinion?</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="excellent" id="excellent">
+                    <label for="excellent">Excellent</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="good" id="good">
+                    <label for="good">Très bien</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="mid" id="mid">
+                    <label for="mid">Moyen</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="eww" id="eww">
+                    <label for="eww">Bof</label>
+                </div>
+            </fieldset>
+
+            <div class="botton">
+                <input type="submit" value="Envoyer les commentaires">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="#haut">Haut de la page</a></p>
+        <p>Copyright 2024</p>
+        <p class="class">420-W11SF</p>
+        <p class="work">Travail Pratique 1</p>
+        <p class="name">Alexandre Brunet</p>
+    </footer>
+</body>
+
+</html>
