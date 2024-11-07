@@ -15,11 +15,11 @@ Voici comment faire un changement sur ce projet, et l'envoyer sur GitHub
 
 4. Appuyez sur "Commit"
 
-![Source Control](tp2/tp2-2349003/source crl.png "Source Control")
+![Source Control](source_crl.png "Source Control")
 
-![Le plus](tp2/tp2-2349003/le plus.png "Le plus")
+![Le plus](le_plus.png "Le plus")
 
-![Commit](tp2/tp2-2349003/commit.png "Commit")
+![Commit](commit.png "Commit")
 
 ## Contributeurs
 
